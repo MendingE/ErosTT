@@ -1,4 +1,4 @@
-import { Route, Switch } from "wouter";
+import { Router, Route, Switch } from "wouter";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Collections from "./pages/collections";
@@ -8,7 +8,7 @@ import { Navbar, Footer } from "./components/layout";
 
 function App() {
   return (
-    <>
+    <Router base="/ErosTT">
       <Navbar />
 
       <main className="pt-[120px]">
@@ -24,7 +24,7 @@ function App() {
       </main>
 
       <Footer />
-    </>
+    </Router>
   );
 }
 

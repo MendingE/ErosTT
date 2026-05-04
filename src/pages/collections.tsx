@@ -226,13 +226,7 @@ export default function Collections() {
               {emptyCopy.title}
             </h2>
             <p className="text-white/60 leading-relaxed mb-8">{emptyCopy.sub}</p>
-            <Link
-              href="/order"
-              className="inline-block text-primary font-bold uppercase tracking-widest text-xs border border-primary px-6 py-3 hover:bg-primary hover:text-white transition-colors"
-              data-testid="link-empty-acquire"
-            >
-              Get Notified
-            </Link>
+            
           </motion.div>
         ) : (
           <div className="space-y-32">
