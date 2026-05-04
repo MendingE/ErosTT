@@ -39,7 +39,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="aspect-[16/9] w-full overflow-hidden"
           >
-            <img src="/editorial-couple.jpg" alt="Eros — worn together" className="w-full h-full object-cover" style={{ filter: 'contrast(1.25) brightness(0.7) saturate(0.75)' }} />
+            <img src={import.meta.env.BASE_URL + "images/editorial-couple.jpg"} alt="Eros - worn together" className="w-full h-full object-cover" style={{ filter: 'contrast(1.25) brightness(0.7) saturate(0.75)' }} />
           </motion.div>
 
           <motion.p

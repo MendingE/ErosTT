@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 
+
 export default function Home() {
   return (
     <div className="min-h-[100dvh] bg-background w-full">
@@ -13,7 +14,7 @@ export default function Home() {
         >
           <div className="absolute inset-0 bg-black/30 z-10" />
           <img
-            src="/hero-bg.jpg"
+            src={import.meta.env.BASE_URL + "images/hero-bg.jpg"}
             alt="Eros Hero"
             className="w-full h-full object-cover object-center"
           />
@@ -94,7 +95,7 @@ export default function Home() {
           </div>
           <div className="aspect-[3/4] bg-muted relative overflow-hidden">
             <img
-              src="/editorial-couple.jpg"
+              src={import.meta.env.BASE_URL + "images/editorial-couple.jpg"}
               alt="Eros — worn together"
               className="object-cover w-full h-full transition-all duration-700"
               style={{ filter: 'contrast(1.25) brightness(0.7) saturate(0.75)' }}
