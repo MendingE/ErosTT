@@ -33,7 +33,7 @@ const collections: Collection[] = [
         images: [
           import.meta.env.BASE_URL + "images/kiss-tee-front.png",
           import.meta.env.BASE_URL + "images/kiss-tee-back.png",
-          import.meta.env.BASE_URL + "images/kiss-tee-graphic.png",
+  
         ],
         tags: ["tops"],
       },
