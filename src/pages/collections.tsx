@@ -37,7 +37,7 @@ const collections: Collection[] = [
         ],
         tags: ["tops"],
       },
-      {
+      /*{
         id: "k2",
         name: "Cupid Tee",
         desc: 'Don\'t let loyality become slavery.',
@@ -48,7 +48,7 @@ const collections: Collection[] = [
   
         ],
         tags: ["tops"],
-      },
+      },*/
     ],
 
      
