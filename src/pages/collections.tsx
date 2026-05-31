@@ -31,8 +31,8 @@ const collections: Collection[] = [
         desc: '"With a kiss let us set out for an unknown world." – Alfred de Musset',
         price: "TT$250.00",
         images: [
-          import.meta.env.BASE_URL + "images/kiss-tee-front.PNG",
-          import.meta.env.BASE_URL + "images/kiss-tee-back.PNG",
+          import.meta.env.BASE_URL + "images/kiss-tee-front.png",
+          import.meta.env.BASE_URL + "images/kiss-tee-back.png",
   
         ],
         tags: ["tops"],
