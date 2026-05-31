@@ -41,6 +41,7 @@ export function Navbar() {
   const mainLinks = [
     { href: "/", label: "Home" },
     { href: "/collections", label: "Collections" },
+    { href: "/gallery", label: "Gallery" },
     { href: "/about", label: "Manifesto" },
     { href: "/order", label: "Acquire" },
   ];

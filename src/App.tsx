@@ -5,6 +5,7 @@ import Collections from "./pages/collections";
 import Order from "./pages/order";
 import NotFound from "./pages/not-found";
 import { Navbar, Footer } from "./components/layout";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/collections" component={Collections} />
           <Route path="/order" component={Order} />
+          <Route path="/gallery" component={Gallery} />
 
           {/* fallback */}
           <Route component={NotFound} />

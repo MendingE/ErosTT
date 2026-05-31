@@ -23,7 +23,7 @@ const collections: Collection[] = [
   {
     name: "Kiss",
     season: "Kiss Collection",
-    description: "Marked, sealed, sent. A white heavyweight tee printed front and back with lipstick kisses — a love letter you wear.",
+    description: "Marked, sealed, sent. A white heavyweight tee printed front and back with lipstick kisses - a love letter you wear.",
     pieces: [
       {
         id: "k1",
@@ -31,18 +31,32 @@ const collections: Collection[] = [
         desc: '"With a kiss let us set out for an unknown world." – Alfred de Musset',
         price: "TT$250.00",
         images: [
-          import.meta.env.BASE_URL + "images/kiss-tee-front.png",
-          import.meta.env.BASE_URL + "images/kiss-tee-back.png",
+          import.meta.env.BASE_URL + "images/kiss-tee-front.PNG",
+          import.meta.env.BASE_URL + "images/kiss-tee-back.PNG",
+  
+        ],
+        tags: ["tops"],
+      },
+      {
+        id: "k2",
+        name: "Cupid Tee",
+        desc: 'Don\'t let loyality become slavery.',
+        price: "TT$299.00",
+        images: [
+          import.meta.env.BASE_URL + "images/Eros Apparel and Design 2-1.png",
+          import.meta.env.BASE_URL + "images/Eros Apparel and Design 2-2.png",
   
         ],
         tags: ["tops"],
       },
     ],
+
+     
   },
   {
     name: "Heartz",
     season: "Heartz Set",
-    description: "The first chapter. A heavyweight black tee with the signature double-heart graphic — built to be worn together.",
+    description: "The first chapter. A heavyweight black tee with the signature double-heart graphic - built to be worn together.",
     pieces: [
       {
         id: "h1",
@@ -50,9 +64,9 @@ const collections: Collection[] = [
         desc: "Be devoted to one another in love. Honor one another above yourselves.",
         price: "TT$250.00",
         images: [
-          import.meta.env.BASE_URL + "images/heartz-tee.png",
-          import.meta.env.BASE_URL + "images/heartz-lifestyle.jpg",
-          import.meta.env.BASE_URL + "images/heartz-tee-mockup.jpg",
+          import.meta.env.BASE_URL + "images/hearts-set-updated.png",
+          import.meta.env.BASE_URL + "images/heartz-set-back.png",
+        
         ],
         tags: ["tops"],
       },
@@ -70,7 +84,7 @@ const tagLabels: Record<string, string> = {
 const emptyStateCopy: Record<string, { title: string; sub: string }> = {
   bottoms: {
     title: "No Bottoms Yet",
-    sub: "The next drop is in the workshop. Check back soon — or sign up for early access on the Acquire page.",
+    sub: "The next drop is in the workshop. Check back soon - or sign up for early access on the Acquire page.",
   },
   outerwear: {
     title: "Outerwear Coming Soon",
@@ -78,7 +92,7 @@ const emptyStateCopy: Record<string, { title: string; sub: string }> = {
   },
   accessories: {
     title: "No Accessories Yet",
-    sub: "Hardware, headwear, and finishing pieces — all on the way.",
+    sub: "Hardware, headwear, and finishing pieces - all on the way.",
   },
   tops: {
     title: "No Tops Available",
